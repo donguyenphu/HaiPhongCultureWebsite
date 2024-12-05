@@ -100,12 +100,62 @@ div {
     transform: translate(-50%, -50%);
 }
 .contactInformationWrapper {
-    background-color: red;
+    background: rgb(40,38,178);
+background: linear-gradient(315deg, rgba(40,38,178,1) 0%, rgb(33, 33, 35) 100%);
+
     position: absolute;
     top: 25%;
     right: 0;
     width: 40%;
-    height: 65%;
+    height: 68%;
     margin: 30px;
     border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.contactIntroductionWrapper {
+    margin-bottom: 20px;
+}
+.contactIntroductionMain {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+.socialWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.social {
+    font-size: 50px;
+}
+#Facebook {
+    background-image: linear-gradient(to right, rgb(23, 0, 230) , rgb(32, 32, 110));
+    background: linear-gradient(45deg, #1877F2, #0056B8);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+#X {
+    background-image: linear-gradient(to right, rgb(143, 142, 152) , rgb(72, 72, 77));
+    background: linear-gradient(45deg, #000000, #1C1C1C, #434343);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+#Instagram {
+    background-image: linear-gradient(to right #f58529, #dd2a7b, #8134af, #515bd4);
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+    -webkit-background-clip: text;
+    color: transparent; 
+    /* 45deg, #f58529, #dd2a7b, #8134af, #515bd4 */
+}
+#LinkedIn {
+    background: linear-gradient(45deg, #0077b5, #005582);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#Github {
+    background: linear-gradient(45deg, #0077b5, #005582);
+    background: linear-gradient(45deg, #24292E, #484F58);
+    -webkit-background-clip: text;
+    color: transparent;
 }
