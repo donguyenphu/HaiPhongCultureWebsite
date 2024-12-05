@@ -1,0 +1,183 @@
+/* 🐶  */
+/* poppins */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* noto sans */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+div {
+    border: none;
+}
+.imageHeaderMain {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+.imageHeaderWrapper {
+    
+}
+.sidebarWrapper {
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(56, 56, 56);
+    margin-top: -5px;
+    overflow: hidden;
+}
+.fullBrand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.allSectionWrapper {
+    display: flex;
+    gap: 10px;
+}
+.imageAndSidebarWrapper {
+    align-items: center;
+}
+.logoMain {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.logo {
+    height: 80px;
+    width: 80px;
+}
+.brandName {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 0, 0);
+
+}
+.sectionLinkMain {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color:rgb(0, 0, 0)
+}
+.sectionLinkWrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 15px;
+    background-color: rgb(83, 82, 82);
+}
+/* END OF HEADER TEMPLATE */
+/* make a Fishbone Diagram in the index.html, where it shows fields about Hai Phong */
+.container {
+    /* margin: 0; */
+    /* font-family: sans-serif; */
+    background: 
+        url('./image/HoangVanThu.jpg')
+        no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+    /* padding: 500px; */
+    /* background: rgba(0, 0, 0, 0.7); */
+}
+/* body {
+    background: rgba(0, 0, 0, 0.7);
+} */
+.container::before {
+    content: '';
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    /* position: relative; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%);  */
+}
+.timeline {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* transform: translate(-50%, -50%); */
+    /* margin: auto; */
+}
+.point {
+    position: relative;
+    /* position: absolute; */
+    width: fit-content;
+    max-width: 34em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.point div {
+    padding: 15px;
+    border: 4px solid black;
+    margin: 15px auto;
+    border-radius: 15px;
+    text-align: center;
+}
+.imageWrapper {
+    /* height: 50%; */
+}
+.imageMain {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.infoMain {
+    font-size: 30px;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.point:nth-child(odd) {
+    border-left: 6px solid black;
+    padding-left: 3em;
+    transform: translateX(17em);
+}
+.point:nth-child(even) {
+    border-right: 6px solid black;
+    padding-right: 3em;
+    transform: translateX(-17em);
+}
+.point:nth-child(odd)::before {
+    left: 0;
+}
+.point:nth-child(even)::before {
+    right: 0;
+}
+.point:nth-child(even)::before,
+.point:nth-child(odd)::before {
+    content: '';
+    background-color: black;
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    /* border-radius: 50%; */
+}
+/* .point:nth-child(odd)::before {
+    left: -0.5em;
+}
+.point:nth-child(even)::before {
+    right: -0.5em;
+} */
+
