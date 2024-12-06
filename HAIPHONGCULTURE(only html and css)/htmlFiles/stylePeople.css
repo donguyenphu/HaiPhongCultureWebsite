@@ -83,7 +83,8 @@ div {
 .peopleInformationWrapper {
     background-color: rgb(35, 37, 59);
     border-radius: 15px;
-    padding: 30px;
+    padding: 35px;
+    /* display: fle; */
 }
 .songIntroductionWrapper {
     margin-bottom: 30px;
@@ -93,8 +94,10 @@ div {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     text-indent: 20px;
-    line-height: 2;
-
+    line-height: 2.5;
+    background-image: linear-gradient(to right, rgb(226, 213, 213), rgb(226, 213, 213));
+    -webkit-background-clip: text;
+    color: transparent;
 }
 .songLinkWrapper {
     border-radius: 15px;
@@ -127,4 +130,27 @@ div {
     background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));
     -webkit-background-clip: text;
     color: transparent;  
+}
+.peopleWrapper {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.peopleImageMain {
+    width: 100%;
+    border-radius: 15px;
+}
+.peopleIntroductionWrapper {
+    padding: 10px;
+}
+.peopleIntroductionMain {
+    line-height: 2.5;
+    text-indent: 20px;
+    font-size: 25px;
+    font-family: 'Poppins' , sans-serif;
+    background-image: linear-gradient(to right, rgb(226, 213, 213), rgb(226, 213, 213));
+    -webkit-background-clip: text;
+    color: transparent; 
 }
