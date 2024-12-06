@@ -77,7 +77,7 @@ div {
 }
 /* END OF HEADER TEMPLATE */
 .peopleContact {
-    padding: 25px; 
+    padding: 30px; 
     background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
 }
 .peopleInformationWrapper {
@@ -86,7 +86,7 @@ div {
     padding: 30px;
 }
 .songIntroductionWrapper {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .songIntroductionMain {
     font-size: 25px;
@@ -98,12 +98,33 @@ div {
 }
 .songLinkWrapper {
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .songLinkMain {
     width: 100%;
     border-radius: 15px;
     height: 50vh;
     object-fit: cover;
-    /* object-fit: contain; */
+}
+.seeMoreWrapper {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#ToiNguoiHaiPhong {
+    font-size: 40px;
+    background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+.seeMoreIntroductionWrapper {
+    margin-top: 10px;
+}
+.seeMoreIntroductionMain {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Poppins' , sans-serif;
+    background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));
+    -webkit-background-clip: text;
+    color: transparent;  
 }
