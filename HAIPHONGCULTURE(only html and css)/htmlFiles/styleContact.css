@@ -119,9 +119,6 @@ div {
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: 600;
-    /* background-image: linear-gradient(to right, rgb(107, 7, 236), rgb(121, 74, 209));
-    -webkit-background-clip: text;
-    color: transparent; */
 }
 .socialWrapper {
     display: flex;
@@ -148,7 +145,6 @@ div {
     background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
     -webkit-background-clip: text;
     color: transparent; 
-    /* 45deg, #f58529, #dd2a7b, #8134af, #515bd4 */
 }
 #LinkedIn {
     background: linear-gradient(45deg, #0077b5, #005582);
