@@ -84,7 +84,17 @@ div {
     background-color: rgb(35, 37, 59);
     border-radius: 15px;
     padding: 35px;
-    /* display: fle; */
+}
+.titleIntroductionWrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.titleIntroductionMain {
+    font-family: 'Noto sans', sans-serif;
+    font-size: 50px;
+    background-image: linear-gradient(to right, rgb(236, 7, 7), rgb(209, 74, 74));
+    -webkit-background-clip: text;
+    color: transparent; 
 }
 .songIntroductionWrapper {
     margin-bottom: 30px;
