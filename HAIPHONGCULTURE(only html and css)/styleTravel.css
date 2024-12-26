@@ -1,3 +1,19 @@
 .locationTitleWrapper {
     margin-bottom: 20px;
 }
+.locationTitleMain {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-size: 30px;
+}
+#googleMapMainDoSon, #googleMapWrapperDoSon {
+    width: 100%;
+}
+#googleMapMainDoSon {
+    border-radius: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
