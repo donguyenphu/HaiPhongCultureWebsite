@@ -17,6 +17,12 @@
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
 }
+.allInfoTravelWrapper {
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #cfcfcf;
+    border-radius: 15px;
+}
 #googleMapMainDoSon, #googleMapWrapperDoSon {
     width: 100%;
 }
@@ -24,11 +30,6 @@
     border-radius: 15px;
     width: 100%;
     margin-bottom: 20px;
-}
-.OnlyImageMain {
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
 }
 .OnlyImageMain, #googleMapMainDoSon {
     transition: transform 0.3s ease;
@@ -42,4 +43,37 @@
 }
 .OnlyImageWrapper {
     width: 25%;
+    margin-bottom: 15px;
+}
+.OnlyImageMain {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.infoAndImageWrapper {
+    width: 25%;
+    height: 100%;
+}
+.infoDoSonWrapper {
+    text-align: center;
+    width: 25%;
+}
+.infoDoSonMain {
+    font-size:25px;
+    font-family: 'Poppins', sans-serif;
+    transform: scale(1);
+    transition: 0.4s;
+    color: black;
+    font-weight: 500;
+}
+.infoDoSonMain:hover {
+    transform: scale(1.2);
+    background: linear-gradient(45deg, #E60026, #FFA500, #FFD700, #008080);
+    -webkit-background-clip: text;
+    color: transparent; 
+    font-family: 'Poppins', sans-serif;
+}
+.infoCuisineDoSonWrapper {
+    display: flex;
+    gap: 15px;
 }
